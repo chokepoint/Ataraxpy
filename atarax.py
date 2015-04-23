@@ -64,7 +64,7 @@ def main():
     parser.add_option("-p", "--port", action="store", dest="port",
             default=6667, help="Set irc port. Default: 6667")
     parser.add_option("-n", "--nick", action="store", dest="nick",
-            default="pyrcbot", help="Set nickname")
+            default="ataraxpy", help="Set nickname")
     parser.add_option("-c", "--channel", action="store", dest="chan",
             default="#ataraxpy", help="Channel to join")
     parser.add_option("-P", "--plugin", action="store", dest="plugin",
