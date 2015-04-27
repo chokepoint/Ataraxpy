@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 from plugins.commands import CommandTemplate
 import pwn
 
@@ -35,5 +33,4 @@ class Commands(CommandTemplate):
             pwn.context.arch = args[0]
             self.send(src, "Arch set to %s" % args[0])
         except Exception, e:
-            self.send(conn, src, e)
-
+            self.send(src, e)
